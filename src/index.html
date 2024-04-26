@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>تسک دوره جاوااسکریپت</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="search">
+        <h1>لیست تراکنش ها</h1>
+        <input type="text" class="input" placeholder="جستجو تراکنش.... " />
+      </div>
+      <button class="btn">بارگذاری تراکنش ها</button>
+
+      <table class="table">
+        <thead>
+          <tr class="header">
+            <th>ردیف</th>
+            <th>نوغ تراکنش</th>
+            <th class="price">
+              مبلغ <i class="fa-solid fa-caret-down" id="price"></i>
+            </th>
+            <th>شماره پیگیری</th>
+            <th class="date">
+              تاریخ تراکنش <i class="fa-solid fa-caret-down" id="date"></i>
+            </th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
