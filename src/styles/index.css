@@ -101,6 +101,7 @@ table {
   -moz-border-radius: var(--border-radius-sm);
   -ms-border-radius: var(--border-radius-sm);
   -o-border-radius: var(--border-radius-sm);
+  background-color: var(--color-secondary-50);
 }
 
 .header {
@@ -177,12 +178,13 @@ td:nth-child(2) {
   border-radius: 5px;
   padding: 10px 20px;
   width: 20rem;
-  color: var(--color-primary-400);
+  background-color: var(--color-secondary-50);
   transition: border 0.1s ease-out;
   -webkit-transition: border 0.1s ease-out;
   -moz-transition: border 0.1s ease-out;
   -ms-transition: border 0.1s ease-out;
   -o-transition: border 0.1s ease-out;
+  color: var(--color-primary-300);
 }
 
 .input:focus {
