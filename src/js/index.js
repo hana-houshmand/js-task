@@ -111,7 +111,7 @@ asending = true;
 
 function sortDate() {
   dateIcon.classList.toggle("rotate");
-  axios.get(baseUrl).then((res) => {
+  axios.get(`${queryStrings.refId}${inputValue} `).then((res) => {
     const data = res.data;
     if (asending) {
       data.sort((a, b) => a.date - b.date);
